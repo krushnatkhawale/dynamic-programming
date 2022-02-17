@@ -13,7 +13,7 @@ public class FibonacciSeriesTest {
     @CsvSource({"1, 1", "2, 1","3, 2","4, 3", "6, 8", "10, 55", "12, 144",
                 "28, 317811", "40, 102334155", "50, 12586269025", "80, 23416728348467685"})
     public void testFactorial(int position, long expectedValue) {
-        long term = FibonacciSeries.getNthTerm(position);
-        Assertions.assertEquals(expectedValue, term);
+        long actualTerm = FibonacciSeries.getNthTerm(position);
+        Assertions.assertEquals(expectedValue, actualTerm);
     }
 }
