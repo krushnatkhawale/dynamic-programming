@@ -14,3 +14,4 @@ jobs:
       - run: |
           cd java 
           sh gradlew
+          sh gradlew clean test
