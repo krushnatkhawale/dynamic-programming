@@ -18,10 +18,3 @@ jobs:
       - run: |
           cd java |
           ls -lrt
-      - name: Change directory to java module
-      - run: |
-          cd java |
-          ls -lrt
-      - name: Trigger gradle task to run test
-      - run: |
-          sh gradlew clean test
