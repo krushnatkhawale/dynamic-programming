@@ -15,6 +15,12 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: Change directory to java module
       - run: |
-          cd java |
+          cd java
+      - name: List files
+      - run: |
           ls -lrt
+      - name: Trigger gradle task to run test
+      - run: |
+          sh gradlew clean test
