@@ -17,3 +17,5 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run:
           cd java
+      - run:
+          ls
