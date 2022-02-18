@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="my.practice.GridTravellerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-02-18T16:07:41" hostname="DESKTOP-768LOS1" time="0.108">
+  <properties/>
+  <testcase name="[1] 1, 1, 1" classname="my.practice.GridTravellerTest" time="0.01"/>
+  <testcase name="[2] 10, 0, 0" classname="my.practice.GridTravellerTest" time="0.007"/>
+  <testcase name="[3] 0, 10, 0" classname="my.practice.GridTravellerTest" time="0.004"/>
+  <testcase name="[4] 2, 3, 3" classname="my.practice.GridTravellerTest" time="0.018"/>
+  <testcase name="[5] 3, 2, 3" classname="my.practice.GridTravellerTest" time="0.003"/>
+  <testcase name="[6] 3, 3, 6" classname="my.practice.GridTravellerTest" time="0.004"/>
+  <testcase name="[7] 4, 4, 20" classname="my.practice.GridTravellerTest" time="0.003"/>
+  <testcase name="[8] 18, 18, 2333606220" classname="my.practice.GridTravellerTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
