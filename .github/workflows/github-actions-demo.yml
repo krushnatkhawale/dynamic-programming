@@ -1,7 +1,7 @@
 name: "GitHub Action: Java: workflow"
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Workflow-Info:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
@@ -16,5 +16,14 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: |
-          cd ${{ github.workspace }} |
+          cd java |
+          ls -lrt
+  Test-Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - run: |
+          cd java |
           ls -lrt
