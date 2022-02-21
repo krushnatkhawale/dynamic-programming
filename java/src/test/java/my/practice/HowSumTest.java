@@ -20,6 +20,6 @@ public class HowSumTest {
                            @ConvertWith(IntArrayConverter.class) int[] numbers,
                            @ConvertWith(IntArrayConverter.class) int[] expectedSumCombo) {
         final int[] actualSumCombo = HowSum.howSum(targetSum, numbers);
-        Assertions.assertEquals(expectedSumCombo, actualSumCombo);
+        Assertions.assertArrayEquals(expectedSumCombo, actualSumCombo);
     }
 }
