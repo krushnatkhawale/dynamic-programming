@@ -18,9 +18,10 @@ public class CanSum {
 
         for(int number : numbers){
             final int remainder = targetSum - number;
-            if(check(remainder, numbers, memo))
+            if(check(remainder, numbers, memo)) {
                 memo.put(targetSum, true);
                 return true;
+            }
         }
 
         memo.put(targetSum, false);
