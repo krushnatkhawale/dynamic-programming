@@ -20,7 +20,7 @@ jobs:
       - run: |
           cd java 
       - run: |
-          sh gradlew clean test
+          sh java/gradlew clean test
       - run: |
           sh gradlew jacocoTestCoverageVerification
       - run: |
