@@ -4,6 +4,10 @@ import java.util.HashMap;
 
 public class CanSum {
 
+    private CanSum(){
+        //Do nothing constructor
+    }
+
     public static boolean canSum(int targetSum, int[] numbers){
         return check(targetSum, numbers,new HashMap<>());
     }

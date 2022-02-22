@@ -19,6 +19,6 @@ jobs:
           distribution: 'adopt'
       - run: |
           cd java 
-          sh gradlew
           sh gradlew clean test
+          sh gradlew jacocoTestCoverageVerification
           sh gradlew build

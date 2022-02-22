@@ -3,6 +3,11 @@ package my.practice;
 import java.util.Arrays;
 
 public class HowSum {
+
+    private HowSum(){
+        //Do nothing constructor
+    }
+
     public static int[] howSum(int targetSum, int[] numbers) {
 
         if(targetSum==0)

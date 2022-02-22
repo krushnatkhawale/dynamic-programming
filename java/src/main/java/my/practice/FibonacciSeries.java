@@ -3,6 +3,11 @@ package my.practice;
 import java.util.HashMap;
 
 public class FibonacciSeries {
+
+    private FibonacciSeries(){
+        //Do nothing constructor
+    }
+
     public static long getNthTerm(int position) {
         return fib(position, new HashMap<>());
     }

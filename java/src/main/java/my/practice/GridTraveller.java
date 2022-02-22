@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 public class GridTraveller {
 
+    private GridTraveller(){
+        //Do nothing constructor
+    }
+
     /***
      * Returns number of possible routes for a given grid size
      * @param rows number of rows in the grid
