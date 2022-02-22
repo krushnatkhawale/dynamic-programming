@@ -17,8 +17,8 @@ public class GridTraveller {
     private static long getRoutes(int rows, int columns, ArrayList<RouteInfo> memo) {
 
         for (RouteInfo routeInfo : memo) {
-            if(routeInfo.row == rows && routeInfo.column == columns)
-                return routeInfo.route;
+            if(routeInfo.row() == rows && routeInfo.column() == columns)
+                return routeInfo.route();
         }
 
         if(rows == 1 && columns == 1)
