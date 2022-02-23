@@ -1,2 +1,2 @@
-java/.gradle
-java/build
+.gradle/
+build/
