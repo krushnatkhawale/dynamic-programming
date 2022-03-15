@@ -21,6 +21,6 @@ public class AllConstructTest {
                                 @ConvertWith(String2DArrayConverter.class) String[][] expectedConstructs) {
 
         String[][] actualConstructs = AllConstructs.construct(targetString, wordBank);
-        Assertions.assertEquals(expectedConstructs, actualConstructs, "Number of construct mismatch for " + targetString);
+        Assertions.assertEquals(expectedConstructs, actualConstructs, "Construct mismatch for " + targetString);
     }
 }
